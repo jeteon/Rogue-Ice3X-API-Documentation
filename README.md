@@ -481,7 +481,11 @@ Ooooh... I can't wait!
 
 # Troubleshooting
 
-Unfortunately, the API seems to respond with `{"errorCode": 1, "errorMessage": "Authentication failed.", "success": false}` for a bunch of things that affect the authentication procedure so you have to try quite a few things to get to the bottom of it. There are a number of things I've come across so far that might lead to this:
+Unfortunately, the API seems to respond with: 
+```json
+{"errorCode": 1, "errorMessage": "Authentication failed.", "success": false}
+``` 
+for a bunch of things that affect the authentication procedure so you have to try quite a few things to get to the bottom of it. There are a number of things I've come across so far that might lead to this:
 
  - your API credentials are incorrect ("Authentication failed" is actually accurate here). I'll say no more.
  - the API has a tolerance of only 30s either way for the timestamp value you use in authenticated requets. Check the API server's timestamp by looking at the `Date` header returned on the `/market/BTC/ZAR/tick` endpoint. This should be as close as possible to the value returned by running `date -u` on your system.
@@ -506,10 +510,10 @@ Please let me know if you try any and they work for you or if you encounter othe
 # Credits
 
 A lot of what I have come to know about the API is due to the following people:
-    - [https://github.com/martinbajalan](https://github.com/martinbajalan): He who started it [all](https://github.com/ICE3X/api-doc)...he who seems to have moved on.
-    - [George Bence](https://bitcoinsouthafrica.slack.com/team/georgebence): First known human (at least to me) to have successfully used the API
-    - [Zeptin](https://bitcoinsouthafrica.slack.com/team/zeptin): API whisperer and fellow OEM documentation decipherer
-    - [Chris Naude](https://bitcoinsouthafrica.slack.com/team/bitflux): He who showed me the API was more than just a legend from the [ancient texts](https://ice3x.co.za/api/).
+ - [https://github.com/martinbajalan](https://github.com/martinbajalan): He who started it [all](https://github.com/ICE3X/api-doc)...he who seems to have moved on.
+ - [George Bence](https://bitcoinsouthafrica.slack.com/team/georgebence): First known human (at least to me) to have successfully used the API
+ - [Zeptin](https://bitcoinsouthafrica.slack.com/team/zeptin): API whisperer and fellow OEM documentation decipherer
+ - [Chris Naude](https://bitcoinsouthafrica.slack.com/team/bitflux): He who showed me the API was more than just a legend from the [ancient texts](https://ice3x.co.za/api/).
 
 # Disclaimer
 
