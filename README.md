@@ -1,6 +1,6 @@
 # Introduction
 
-This is **not** the official documentation. Ice3X does not seem to care enough to maintain useful documentation of their API so this is unashamedly a hostile fork. Go [here](https://github.com/ICE3X/api-doc) if you want the official version. The alterations herein have been learned through the sweat and blood of many developers (most notably those in the credits) who reverse engineered the API. I pretty much went through the endpoints whilst writing a client of my own so most of the examples below should be representative.
+This is **not** the official documentation. Ice3X does not seem to care enough to maintain useful documentation of their API so this is unashamedly a hostile fork. Go [here](https://github.com/ICE3X/api-doc) if you want the official version. The alterations herein have been learned through the sweat and blood of many developers (most notably those in the [Credits](https://github.com/jeteon/Rogue-Ice3X-API-Documentation#credits)) who reverse engineered the API. I pretty much went through the endpoints whilst writing a client of my own so most of the examples below should be representative.
 
 Please feel free to add pull requests if you discover something I missed or something else undocumented about the API. 
 
