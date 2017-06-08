@@ -1,3 +1,5 @@
+**NOTICE:** Ice3X recently made major changes to their API which makes this documentation outdated. Some documentation for the new API seems to be available https://ice3x.co.za/ice-cubed-bitcoin-exchange-api-documentation-1-june-2017/ but I can't vouch for it. I'll try to verify things work as documentated and update this reposistory accordingly.
+
 # Introduction
 
 This is **not** the official documentation. Ice3X does not seem to care enough to maintain useful documentation of their API so this is unashamedly a hostile fork. Go [here](https://github.com/ICE3X/api-doc) if you want the official version. The alterations herein have been learned through the sweat and blood of many developers (most notably those in the [Credits](https://github.com/jeteon/Rogue-Ice3X-API-Documentation#credits)) who reverse engineered the API. I pretty much went through the endpoints whilst writing a client of my own so most of the examples below should be representative.
