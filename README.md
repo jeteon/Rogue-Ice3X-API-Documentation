@@ -104,6 +104,7 @@ A list of the recent trades that have been executed on the market.
 Path: `/market/{instrument}/{currency}/trades`.
 
 Here's sample response from [`/market/BTC/ZAR/trades`](https://api.ice3x.com/market/BTC/ZAR/trades):
+
 ```json
 [
   	{"tid" : 13659000, "amount" : 0.00258247, "price" : 18100.0, "date" : 1488569293},
@@ -121,7 +122,7 @@ Here's sample response from [`/market/BTC/ZAR/trades`](https://api.ice3x.com/mar
 
 You can also supply an optional parameter called `since` which will limit the returned response to trades before that ID. For instance:
 
-````
+```
  /market/BTC/ZAR/trades?since=59868345231
 ```
 
